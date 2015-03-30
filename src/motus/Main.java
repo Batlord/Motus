@@ -3,7 +3,5 @@ package motus;
 
 /* TODO Javadoc. */
 //class qui contient le programme principal
-public class Main 
-{
-	
+public class Main {
 }
