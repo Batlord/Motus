@@ -7,6 +7,7 @@ package motus;
 public class Etat {
     /* TODO Javadoc. */
     /* TODO Convention de nommage java (i.e. Couleurs et non couleurs). */
+    /* TODO Il n'y a pas d'état par défaut ???. */
     public enum couleurs {
         /* TODO Convention de nommage java (i.e. ROUGE et non Rouge). */
         /* TODO Javadoc. */
