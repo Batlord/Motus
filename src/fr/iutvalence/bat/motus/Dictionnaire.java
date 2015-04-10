@@ -1,5 +1,5 @@
 /* TODO Utiliser un nom de package coherent (i.e. fr.iutvalence.NOM_DU_BINOME.motus). */
-package motus;
+package fr.iutvalence.bat.motus;
 
 /* TODO JAVADOC. */
 //class pour le dictionnaire
