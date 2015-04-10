@@ -1,13 +1,10 @@
 package fr.iutvalence.bat.motus;
 
-import java.util.Scanner;
-
 /* TODO Javadoc. */
-//class that contains the main program
-public class Main
-{
-	public static void main(String[] args)
-	{
-		
-	}
+public class Main {
+    /* TODO Javadoc. */
+    public static void main(String[] args) {
+        Partie game = new Partie();
+        // game.start();
+    }
 }
