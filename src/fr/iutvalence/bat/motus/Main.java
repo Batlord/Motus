@@ -1,10 +1,11 @@
 package fr.iutvalence.bat.motus;
 
-/* TODO Javadoc. */
+/* Main class that will contain instructions to allow someone to play,
+ * using all the other classes to make it possible */
 public class Main {
     /* TODO Javadoc. */
     public static void main(String[] args) {
-        Partie game = new Partie();
+        Game game = new Game();
         // game.start();
     }
 }

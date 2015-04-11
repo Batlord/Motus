@@ -1,9 +1,9 @@
 package fr.iutvalence.bat.motus;
 
-/* TODO Javadoc. */
-public class Partie {
+/* Class that represents game in itself */
+public class Game {
     /** Current player. */
-    private Joueur joueur;
+    private Player player;
     /** Current round. */
     private int    round;
 }
