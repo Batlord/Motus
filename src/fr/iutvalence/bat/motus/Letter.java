@@ -7,12 +7,13 @@ package fr.iutvalence.bat.motus;
  * @version 1.0
  */
 public class Letter {
+    /* TODO JAVADOC. */
     /* Attribute that defines a letter as being a character*/
-    private final char letter;
-    
-    /* Attribute that links to each letter a state, to know if it's well placed, 
+    private final char  letter;
+    /* TODO JAVADOC. */
+    /* Attribute that links to each letter a state, to know if it's well placed,
      * bad placed or if it's not in the word the player is looking for */
-    private State state;
+    private       State state;
 
     /* TODO Javadoc. */
     public Letter(char letter, State state) {
