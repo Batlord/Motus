@@ -4,10 +4,20 @@ package fr.iutvalence.bat.motus;
 /* enumeration used to store states that will be linked to each case in the grid */
 public enum State 
 {
-	/* TODO JAVADOC. */
+	/**
+	 *The letter is not in the word we are looking for. 
+	 */
 	BLUE,
-	/* TODO JAVADOC. */
+	/**
+	 * The letter is in the word and at the good place.
+	 */
 	RED,
-	/* TODO JAVADOC. */
-	YELLOW
+	/**
+	 * The letter is in the word but not at the good place.
+	 */
+	YELLOW,
+	/**
+	 * The letter is hidden from the player.
+	 */
+	HIDDEN,
 }

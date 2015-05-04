@@ -1,5 +1,7 @@
 package fr.iutvalence.bat.motus;
 
+import java.util.*;
+
 /**
  * A letter: a character and its state.
  *
@@ -13,11 +15,18 @@ public class Letter {
     /* TODO JAVADOC. */
     /* Attribute that links to each letter a state, to know if it's well placed,
      * bad placed or if it's not in the word the player is looking for */
-    private       State state;
+    private State state;
 
     /* TODO Javadoc. */
     public Letter(char letter, State state) {
         this.letter = letter;
         this.state = state;
     }
+    public char getNewCharacter()
+    {
+    	Random randomCharacter = new Random();
+    	char newCharacter = (char)(randomCharacter.nextInt(25)+'a');
+    	return newCharacter;
+    }
+
 }

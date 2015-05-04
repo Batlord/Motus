@@ -6,6 +6,9 @@ public class Game {
     /** Current player. */
     private Player player;
     /** Current round. */
-    private int    round;
+    private int round;
     /* TODO Where are the letters (real question)? */
+	public Game() {
+		this.round = 0;
+	}
 }
