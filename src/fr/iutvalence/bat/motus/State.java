@@ -1,7 +1,10 @@
 package fr.iutvalence.bat.motus;
 
-/* TODO JAVADOC. */
-/* enumeration used to store states that will be linked to each case in the grid */
+/**
+ * Enumeration used to store states that will be linked to each cases in the grid.
+ * @author crozienu
+ *
+ */
 public enum State 
 {
 	/**

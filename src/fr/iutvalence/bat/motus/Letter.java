@@ -9,19 +9,28 @@ import java.util.*;
  * @version 1.0
  */
 public class Letter {
-    /* TODO JAVADOC. */
-    /* Attribute that defines a letter as being a character*/
+    
+	/** Attribute that defines a letter as being a character.*/
     private final char  letter;
-    /* TODO JAVADOC. */
-    /* Attribute that links to each letter a state, to know if it's well placed,
-     * bad placed or if it's not in the word the player is looking for */
+    
+    /** Attribute that links to each letter a state, to know id it's well placed,
+     *  bad placed or if it's not in the word the player is looking for.
+     */
     private State state;
-
-    /* TODO Javadoc. */
+  
+    /**
+     * Constructor for Letter class.
+     * @param letter
+     * @param state
+     */
     public Letter(char letter, State state) {
         this.letter = letter;
         this.state = state;
     }
+    /**
+     * Method that creates a new random character, in our case a letter.
+     * @return char
+     */
     public char getNewCharacter()
     {
     	Random randomCharacter = new Random();
