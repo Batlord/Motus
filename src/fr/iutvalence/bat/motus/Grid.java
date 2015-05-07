@@ -26,16 +26,35 @@ public class Grid {
 		this.grid = new char[gridSize];
 	}
 	
-	public char[] fillGridWithRandomCharacters(int gridSize,char[] grid)
+	public char[] getCharGrid()
+	{
+		return this.grid;
+	}
+	
+	/**
+	 * Method that takes a grid and fill in it with random characters
+	 * @param gridsize
+	 * @param grid
+	 * @return char[]
+	 */
+	public static char[] fillGridWithRandomCharacters(char[] grid)
 	{
 		int compteurForGridCharacters;
-		for(compteurForGridCharacters = 0; compteurForGridCharacters <= this.gridSize; compteurForGridCharacters++)
+		
+		for(compteurForGridCharacters = 0; compteurForGridCharacters <= grid.length; compteurForGridCharacters++)
 		{
-			char randomCharacter = getNewCharacter();
-			this.grid[compteurForGridCharacters] = randomCharacter;
-			return this.grid;
+			char randomCharacter = Letter.getNewCharacter();
+			grid[compteurForGridCharacters] = randomCharacter;
+		
 		}
+		return grid;
 	}
+
+	@Override
+	public String toString() {
+		return "Grid [grid=" + Arrays.toString(grid) + "]";
+	}
+	
 	
 
 }

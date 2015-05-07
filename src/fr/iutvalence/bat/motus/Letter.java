@@ -31,7 +31,7 @@ public class Letter {
      * Method that creates a new random character, in our case a letter.
      * @return char
      */
-    public char getNewCharacter()
+    public static char getNewCharacter()
     {
     	Random randomCharacter = new Random();
     	char newCharacter = (char)(randomCharacter.nextInt(25)+'a');

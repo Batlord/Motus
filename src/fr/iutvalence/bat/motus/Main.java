@@ -14,7 +14,10 @@ public class Main {
      * @param args
      */
     public static void main(String[] args) {
-        Game game = new Game();
-        // game.start();
+        Grid grid = new Grid();
+        //probleme avec l'affichage de la grille remplie 
+        Grid.fillGridWithRandomCharacters(grid.getCharGrid());
+        System.out.println(grid);
+        
     }
 }
